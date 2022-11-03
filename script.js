@@ -66,15 +66,13 @@ function reddish() {
                     a = aside + aup
             
                     if (a % 2 == 0 && pinkColor == greenColor) {
-                        i2.style.backgroundColor = 'rgb(240, 201, 150)'
+                        i2.style.backgroundColor = 'rgb(255,0,0)'
                     }
                     if (a % 2 !== 0 && pinkColor == greenColor) {
-                        i2.style.backgroundColor = 'rgb(100, 75, 43)'
+                        i2.style.backgroundColor = 'rgb(255,0,0)'
                     }
 
-                    // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
-                    // }
+                    
                 }
             })
         }
@@ -89,7 +87,7 @@ document.querySelectorAll('.box').forEach(item => {
 
     item.addEventListener('click', function () {
 
-        // To delete the opposite element
+        
 
         if (item.style.backgroundColor == 'green' && item.innerText.length == 0) {
             tog = tog + 1
@@ -467,7 +465,7 @@ document.querySelectorAll('.box').forEach(item => {
 
         if (numOfKings == 1) {
             setTimeout(() => {
-                // console.log(`${toggle}`) 
+                
                 if (tog % 2 == 0) {
                     alert('White Wins !!')
                     location.reload()

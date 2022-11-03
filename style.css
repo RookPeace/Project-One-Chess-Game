@@ -9,17 +9,19 @@ background-image: url("https://getwallpapers.com/wallpaper/full/1/8/4/1016464-ch
     background-size: cover;
   background-position: right top;
   background-attachment: scroll;
-
     display: grid;
     place-items: center;
     overflow-x: hidden;
 }
 
 h1 {
-    color: white;
-    margin: 10px;
+    color: beige;
+    margin: -5px;
 }
 
+h2{
+    color:beige;
+}
 ul {
     display: grid;
     grid-template-columns: 1fr;
